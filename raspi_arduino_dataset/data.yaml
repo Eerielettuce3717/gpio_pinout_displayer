@@ -1,0 +1,14 @@
+path: raspi_arduino_dataset
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 20
+names: ['Arduino-Due', 'Arduino-Leonardo', 'Arduino-Mega', 'Arduino-Micro', 'Arduino-Nano', 'Arduino-Pro-Mini', 'Arduino-Uno', 'Arduino-Zero', 'Raspberry Pi 5', 'Raspberry-Pi-1-Model-A-', 'Raspberry-Pi-1-Model-B-', 'Raspberry-Pi-2-Model-B', 'Raspberry-Pi-3-Model-A-', 'Raspberry-Pi-3-Model-B', 'Raspberry-Pi-3-Model-B-', 'Raspberry-Pi-4-Model-B', 'Raspberry-Pi-Zero', 'Raspberry-Pi-Zero-2-W', 'Raspberry-Pi-Zero-W', 'Raspberry-Pi-Zero-WH']
+
+roboflow:
+  workspace: ontheball
+  project: raspberry-pi-and-arduino
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ontheball/raspberry-pi-and-arduino/dataset/2
